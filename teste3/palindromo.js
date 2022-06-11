@@ -1,8 +1,8 @@
 //solução 1
-function verificarPalindromo(string){
+function verificrPalindromo(string){
     if(!string) return;
 
     string.split("").reverse().join("") === string;
 }
 
-console.log(verificarPalindromo(ovo));
+console.log(verificaPalindromo(ovo));
